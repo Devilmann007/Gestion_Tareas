@@ -1,0 +1,26 @@
+# ---- Python / Django ----
+*.pyc
+*.pyo
+__pycache__/
+*.sqlite3
+*.log
+*.env
+.env
+
+# Django static and media
+staticfiles/
+media/
+
+# ---- Node / React ----
+Front_end/node_modules/
+Front_end/build/
+Front_end/.env
+Front_end/.env.*.local
+
+# ---- VSCode & OS Files ----
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.idea/
+Thumbs.db
